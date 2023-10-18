@@ -1,0 +1,575 @@
+@import url(root.css);
+
+@font-face {
+        font-family: "segoe-ui";
+        src: url(../segoe-ui-ff/Segoe\ UI.ttf);
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        /* list-style-type: none; */
+        text-decoration: none !important;
+        box-sizing: border-box;
+        transition: all 400ms linear;
+}
+
+.container-1 {
+        max-width: 780px !important;
+}
+
+.ff-segoe {
+        font-family: "segoe-ui";
+}
+
+.line-h::before{
+        content: '';
+        width: 0;
+        height: 3px;
+        position: absolute;
+        right: 0;
+        bottom: -3%;
+        transition: .5s;
+        background-color: var(--light-white);
+}
+.line-h:hover::before{
+        width: 100%;
+        left: 0;
+}
+
+/*-------------------------------------- line-hight-------------------------------------- */
+.lh-139 {
+        line-height: 139.023%;
+}
+
+.lh-148 {
+        line-height: 148.008%;
+}
+
+.lh-normal {
+        line-height: normal;
+}
+
+/*-------------------------------------- nav-section--------------------------------------- */
+
+.nav-bg {
+        background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
+}
+
+.cross-1 {
+        rotate: 45deg;
+        transition: .4s;
+}
+
+.cross-2 {
+        position: relative;
+        transition: .4s;
+        top: -80%;
+        rotate: -45deg;
+}
+
+.cross-3 {
+        display: none !important;
+}
+
+.cross-4 {
+        transition: .4s;
+}
+
+.cross-5 {
+        transition: .4s;
+}
+
+.cross-6 {
+        transition: .4s;
+}
+
+.flow-hidden {
+        overflow: hidden;
+}
+
+/*------------------------------------- hero-section------------------------------------- */
+
+.my-container {
+        max-width: 1600px !important;
+    }
+    
+    .bg-img-hero-sec{
+        background-image: url(../images/sec-bg-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        min-height: 410px;
+    
+    }
+    
+    .hero-sec-crd {
+        border-radius: 4.659px;
+        opacity: 0.7;
+        background: var(--Purple, #8661C5);
+        box-shadow: 3.72705px 3.72705px 16.77172px 0px rgba(0, 0, 0, 0.70);
+        max-width: 709.795px;
+        max-height: 636.027px;
+        flex-shrink: 0;
+    }
+    
+    .start-btn {
+        border-radius: 5px;
+        padding: 12px 17px;
+        border: none;
+        max-width: 187px;
+        max-width: 709.795px;
+    }
+    
+    .img-header-p {
+        padding-top: 67px;
+        padding-bottom: 67px;
+    }
+    
+    .mx-496 {
+        max-width: 496px;
+    }
+
+/*----------------------------------MICROSOFT FOR STARTUP---------------------------------- */
+
+.mxw-683 {
+        max-width: 683px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+        font-family: 'slick';
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: var(--dark-purple) !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ---------------------------------MicroSpot - Whats New?--------------------------------- */
+.line-b {
+        border-bottom: 1px solid #000;
+        max-width: 523px;
+}
+
+.mx-380 {
+        max-width: 380px;
+}
+
+.mb-43 {
+        margin-bottom: 43px;
+}
+
+.elips-1{
+        position: absolute;
+        bottom: -65%;
+        right: 0%;
+
+}
+
+/*----------------------------- Founders Hub----------------------------- */
+
+.mx-931 {
+        max-width: 931px;
+}
+
+.mx-969 {
+        max-width: 969px;
+}
+
+.btn-apply {
+
+        padding: 11px 22px;
+        border-radius: 5px;
+        background: var(--Light-Purple, #D59DFF);
+        border: none;
+}
+.btn-apply:hover {
+        background-color: #3B2E58;      
+        color: #FAF9FD;
+        border: none;     
+       
+}
+
+
+/* -----------------------------Founders Hub Benefits----------------------------- */
+.mx-828 {
+        max-width: 828px;
+}
+
+.benefits-common-crds {
+        max-width: 253.834px;
+        height: 172.299px;
+        flex-shrink: 0;
+        background-color: var(--light-white);
+        border-radius: 10px;
+        filter: drop-shadow(0px 3.076772689819336px 7.69193172454834px rgba(0, 0, 0, 0.25));
+        margin-bottom: 16px;
+}
+
+.container_1 {
+        max-width: 1600px !important;
+}
+
+.col-2 {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+}
+
+.benefit-btn1 {
+        padding: 11px 22px;
+        border-radius: 5px;
+        border: none;
+        max-width: 420px;
+}
+.benefit-btn1:hover {
+        background-color: #3B2E58;      
+        color: #FAF9FD;
+        border: none;
+       
+}
+
+.benefit-btn2 {
+        border-radius: 5px;
+        border: none;
+        max-width: 420px;
+        padding: 8px 22px;
+}
+.benefit-btn2:hover {
+        background-color: #3B2E58;      
+        color: #FAF9FD;
+        border: none;
+}
+
+.elips-2{
+        position: absolute;
+       top: -27%;
+       left: 0;
+
+}
+
+
+
+
+/* -----------------------------‘Microsoft for Startups’ Programs----------------------------- */
+.microsoft-crd {
+        border-radius: 6.621px;
+        border: 2.143px solid var(--Dark-Purple, #3B2E58);
+        background: var(--White, #FFF);
+        padding: 11px 8px;
+}
+
+.bg-micro-img {
+        background-image: url(../images/startup-sec-img-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 400px;
+        border-radius: 10px;
+}
+
+.bg-micro-img2 {
+        background-image: url(../images/startup-sec-img-2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 400px;
+        border-radius: 10px;
+}
+
+.bg-micro-img3 {
+        background-image: url(../images/startup-sec-img-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 400px;
+        border-radius: 10px;
+}
+
+.bg-micro-img4 {
+        background-image: url(../images/startup-sec-img-4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 400px;
+        border-radius: 10px;
+}
+
+.small-crd {
+        border-radius: 3.144px;
+        opacity: 0.7;
+        background: var(--Purple, #8661C5);
+        box-shadow: 2.51517px 2.51517px 11.31828px 0px rgba(0, 0, 0, 0.70);
+        padding: 5px 5px;
+}
+
+.py-250 {
+        padding: 150px 90px;
+}
+
+.mx-461 {
+        max-width: 461px;
+}
+
+/* --------------------------------tchnology, Skilling & Support------------------------------  */
+
+.sec-technology-crd {
+        background: var(--Light-Grey, #FAF9FD);
+        border-radius: 5px;
+        border: 3px solid var(--Purple, #8661C5);
+        padding: 25px 48px;
+        height: 100%;
+}
+
+.mx-442 {
+        max-width: 442px;
+}
+
+.elips-3{
+        position: absolute;
+       top: -3%;
+       left: 0;
+
+}
+
+
+/* ---------------------------------Ecosystem Events & Partnership--------------------------------- */
+
+
+.mx-920 {
+        max-width: 920px;
+}
+
+.mx-1040 {
+        max-width: 1040px;
+}
+
+.sec-ecosystem-crd {
+        border-radius: 5px;
+        border: 3px solid var(--Light-Grey, #FAF9FD);
+        height: 320px;
+}
+
+.mx-390 {
+        max-width: 390px;
+}
+
+
+.icon-h:hover{
+    transform: translateY(-60%);
+}
+
+/* ------------------------------------back-to-top------------------------------------ */
+#backtotop {
+        transition: .3s;
+        position: fixed;
+        bottom: 1px;
+        right: 1px;
+        z-index: 2;
+        cursor: pointer;
+        animation: float 2s linear infinite;
+    }
+    .display_none {
+        display: none;
+    }
+    .display_block {
+        display: block;
+    }
+
+    /* -------------------------------------preloader------------------------------------- */
+.loader_bg {
+        position: fixed;
+        z-index: 9;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+    }
+    .loader {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        transform: translate(-50%, -30%);
+        width: 50px;
+    }
+    
+/* --------------------------------------media-quary-------------------------------------- */
+
+@media (max-width:992px) {
+        label[id="menuIcon"] {
+                width: 30px;
+                height: 24px;
+                cursor: pointer;
+                display: flex;
+                position: absolute;
+                right: 2%;
+                top: 2%;
+                justify-content: space-between;
+                flex-direction: column;
+                z-index: 5;
+                align-items: center;
+        }
+
+        label[id="menuIcon"]>span {
+                width: 100%;
+                height: 5px;
+                background: black;
+        }
+
+        .navBox {
+                flex-direction: column !important;
+                justify-content: center;
+                align-items: center;
+                top: 0;
+                left: -100%;
+                position: fixed;
+                opacity: 1;
+                width: 100%;
+                max-width: 400px;
+                height: 100%;
+                background: var(--dark-purple);
+                z-index: 3;
+                box-shadow: 0px 0px 19px 9px rgba(0, 0, 0, 0.10);
+                transition: all 500ms linear;
+        }
+
+        .fix-lft {
+                left: 0;
+        }
+}
+
+@media (min-width:576px) {
+        .bg-img-hero-sec{
+                background-image: url(../images/sec-bg-img.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: left;
+                min-height: 550px;
+            
+            }
+            
+.bg-micro-img {
+        background-image: url(../images/startup-sec-img-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 550px;
+        border-radius: 10px;
+}
+
+.bg-micro-img2 {
+        background-image: url(../images/startup-sec-img-2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 550px;
+        border-radius: 10px;
+}
+
+.bg-micro-img3 {
+        background-image: url(../images/startup-sec-img-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 550px;
+        border-radius: 10px;
+}
+
+.bg-micro-img4 {
+        background-image: url(../images/startup-sec-img-4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 550px;
+        border-radius: 10px;
+}
+}
+@media (min-width:768px) {
+        .bg-img-hero-sec{
+                background-image: url(../images/sec-bg-img.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: left;
+                min-height: 720px;
+            
+            }  
+
+            
+.bg-micro-img {
+        background-image: url(../images/startup-sec-img-1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 712px;
+        border-radius: 10px;
+}
+
+.bg-micro-img2 {
+        background-image: url(../images/startup-sec-img-2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 712px;
+        border-radius: 10px;
+}
+
+.bg-micro-img3 {
+        background-image: url(../images/startup-sec-img-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 712px;
+        border-radius: 10px;
+}
+
+.bg-micro-img4 {
+        background-image: url(../images/startup-sec-img-4.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 712px;
+        border-radius: 10px;
+}
+.start-btn {
+        border-radius: 5px;
+        padding: 14px 42px;
+        border: none;
+        max-width: 187px;
+        max-width: 709.795px;
+    }
+
+    .btn-apply {
+
+        padding: 14px 42px;
+        border-radius: 5px;
+        background: var(--Light-Purple, #D59DFF);
+        border: none;
+}
+.benefit-btn1 {
+        padding: 33px 41px;
+        border-radius: 5px;
+        border: none;
+        max-width: 420px;
+}
+.benefit-btn2 {
+        border-radius: 5px;
+        border: none;
+        max-width: 420px;
+        padding: 10px 57px;
+}
+.py-250 {
+        padding: 240px 90px;
+}
+}
+
+
+@media (min-width:992px) {
+        .small-crd {
+                border-radius: 3.144px;
+                opacity: 0.7;
+                background: var(--Purple, #8661C5);
+                box-shadow: 2.51517px 2.51517px 11.31828px 0px rgba(0, 0, 0, 0.70);
+                padding: 70px 9px;
+        }  
+}
