@@ -21,7 +21,7 @@
         font-family: "segoe-ui";
 }
 
-.line-h::before{
+.line-h::before {
         content: '';
         width: 0;
         height: 3px;
@@ -31,7 +31,8 @@
         transition: .5s;
         background-color: var(--light-white);
 }
-.line-h:hover::before{
+
+.line-h:hover::before {
         width: 100%;
         left: 0;
 }
@@ -91,18 +92,17 @@
 
 .my-container {
         max-width: 1600px !important;
-    }
-    
-    .bg-img-hero-sec{
+}
+
+.bg-img-hero-sec {
         background-image: url(../images/sec-bg-img.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
         min-height: 410px;
-    
-    }
-    
-    .hero-sec-crd {
+}
+
+.hero-sec-crd {
         border-radius: 4.659px;
         opacity: 0.7;
         background: var(--Purple, #8661C5);
@@ -110,24 +110,24 @@
         max-width: 709.795px;
         max-height: 636.027px;
         flex-shrink: 0;
-    }
-    
-    .start-btn {
+}
+
+.start-btn {
         border-radius: 5px;
         padding: 12px 17px;
         border: none;
         max-width: 187px;
         max-width: 709.795px;
-    }
-    
-    .img-header-p {
+}
+
+.img-header-p {
         padding-top: 67px;
         padding-bottom: 67px;
-    }
-    
-    .mx-496 {
+}
+
+.mx-496 {
         max-width: 496px;
-    }
+}
 
 /*----------------------------------MICROSOFT FOR STARTUP---------------------------------- */
 
@@ -161,11 +161,10 @@
         margin-bottom: 43px;
 }
 
-.elips-1{
+.elips-1 {
         position: absolute;
         bottom: -65%;
         right: 0%;
-
 }
 
 /*----------------------------- Founders Hub----------------------------- */
@@ -179,17 +178,16 @@
 }
 
 .btn-apply {
-
         padding: 11px 22px;
         border-radius: 5px;
         background: var(--Light-Purple, #D59DFF);
         border: none;
 }
+
 .btn-apply:hover {
-        background-color: #3B2E58;      
+        background-color: #3B2E58;
         color: #FAF9FD;
-        border: none;     
-       
+        border: none;
 }
 
 
@@ -198,7 +196,7 @@
         max-width: 828px;
 }
 
-.benefits-common-crds {       
+.benefits-common-crds {
         height: 172.299px;
         flex-shrink: 0;
         background-color: var(--light-white);
@@ -222,11 +220,11 @@
         border: none;
         max-width: 420px;
 }
+
 .benefit-btn1:hover {
-        background-color: #3B2E58;      
+        background-color: #3B2E58;
         color: #FAF9FD;
         border: none;
-       
 }
 
 .benefit-btn2 {
@@ -235,17 +233,17 @@
         max-width: 420px;
         padding: 8px 22px;
 }
+
 .benefit-btn2:hover {
-        background-color: #3B2E58;      
+        background-color: #3B2E58;
         color: #FAF9FD;
         border: none;
 }
 
-.elips-2{
+.elips-2 {
         position: absolute;
-       top: -27%;
-       left: 0;
-
+        top: -27%;
+        left: 0;
 }
 
 
@@ -327,13 +325,11 @@
         max-width: 442px;
 }
 
-.elips-3{
+.elips-3 {
         position: absolute;
-       top: -3%;
-       left: 0;
-
+        top: -3%;
+        left: 0;
 }
-
 
 /* ---------------------------------Ecosystem Events & Partnership--------------------------------- */
 
@@ -357,8 +353,12 @@
 }
 
 
-.icon-h:hover{
-    transform: translateY(-60%);
+.icon-h:hover {
+        transform: translateY(-60%);
+}
+
+.ecosystem-img-1:hover {
+        transform: scale(1.1);
 }
 
 /* ------------------------------------back-to-top------------------------------------ */
@@ -370,30 +370,33 @@
         z-index: 2;
         cursor: pointer;
         animation: float 2s linear infinite;
-    }
-    .display_none {
-        display: none;
-    }
-    .display_block {
-        display: block;
-    }
+}
 
-    /* -------------------------------------preloader------------------------------------- */
+.display_none {
+        display: none;
+}
+
+.display_block {
+        display: block;
+}
+
+/* -------------------------------------preloader------------------------------------- */
 .loader_bg {
         position: fixed;
         z-index: 9;
         background: #fff;
         width: 100%;
         height: 100%;
-    }
-    .loader {
+}
+
+.loader {
         position: absolute;
         top: 45%;
         left: 45%;
         transform: translate(-50%, -30%);
         width: 50px;
-    }
-    
+}
+
 /* --------------------------------------media-quary-------------------------------------- */
 
 @media (max-width:992px) {
@@ -440,127 +443,130 @@
 }
 
 @media (min-width:576px) {
-        .bg-img-hero-sec{
+        .bg-img-hero-sec {
                 background-image: url(../images/sec-bg-img.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left;
                 min-height: 550px;
-            
-            }
-            
-.bg-micro-img {
-        background-image: url(../images/startup-sec-img-1.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 550px;
-        border-radius: 10px;
+        }
+
+        .bg-micro-img {
+                background-image: url(../images/startup-sec-img-1.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 550px;
+                border-radius: 10px;
+        }
+
+        .bg-micro-img2 {
+                background-image: url(../images/startup-sec-img-2.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 550px;
+                border-radius: 10px;
+        }
+
+        .bg-micro-img3 {
+                background-image: url(../images/startup-sec-img-3.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 550px;
+                border-radius: 10px;
+        }
+
+        .bg-micro-img4 {
+                background-image: url(../images/startup-sec-img-4.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 550px;
+                border-radius: 10px;
+        }
 }
 
-.bg-micro-img2 {
-        background-image: url(../images/startup-sec-img-2.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 550px;
-        border-radius: 10px;
-}
-
-.bg-micro-img3 {
-        background-image: url(../images/startup-sec-img-3.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 550px;
-        border-radius: 10px;
-}
-
-.bg-micro-img4 {
-        background-image: url(../images/startup-sec-img-4.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 550px;
-        border-radius: 10px;
-}
-}
 @media (min-width:768px) {
-        .bg-img-hero-sec{
+        .bg-img-hero-sec {
                 background-image: url(../images/sec-bg-img.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left;
                 min-height: 720px;
-            
-            }  
+        }
 
-            
-.bg-micro-img {
-        background-image: url(../images/startup-sec-img-1.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 712px;
-        border-radius: 10px;
-}
 
-.bg-micro-img2 {
-        background-image: url(../images/startup-sec-img-2.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 712px;
-        border-radius: 10px;
-}
+        .bg-micro-img {
+                background-image: url(../images/startup-sec-img-1.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 712px;
+                border-radius: 10px;
+        }
 
-.bg-micro-img3 {
-        background-image: url(../images/startup-sec-img-3.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 712px;
-        border-radius: 10px;
-}
+        .bg-micro-img2 {
+                background-image: url(../images/startup-sec-img-2.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 712px;
+                border-radius: 10px;
+        }
 
-.bg-micro-img4 {
-        background-image: url(../images/startup-sec-img-4.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-height: 712px;
-        border-radius: 10px;
-}
-.start-btn {
-        border-radius: 5px;
-        padding: 14px 42px;
-        border: none;
-        max-width: 187px;
-        max-width: 709.795px;
-    }
+        .bg-micro-img3 {
+                background-image: url(../images/startup-sec-img-3.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 712px;
+                border-radius: 10px;
+        }
 
-    .btn-apply {
+        .bg-micro-img4 {
+                background-image: url(../images/startup-sec-img-4.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                max-height: 712px;
+                border-radius: 10px;
+        }
 
-        padding: 14px 42px;
-        border-radius: 5px;
-        background: var(--Light-Purple, #D59DFF);
-        border: none;
-}
-.benefit-btn1 {
-        padding: 33px 41px;
-        border-radius: 5px;
-        border: none;
-        max-width: 420px;
-}
-.benefit-btn2 {
-        border-radius: 5px;
-        border: none;
-        max-width: 420px;
-        padding: 10px 57px;
-}
-.py-250 {
-        padding: 240px 90px;
-}
+        .start-btn {
+                border-radius: 5px;
+                padding: 14px 42px;
+                border: none;
+                max-width: 187px;
+                max-width: 709.795px;
+        }
+
+        .btn-apply {
+
+                padding: 14px 42px;
+                border-radius: 5px;
+                background: var(--Light-Purple, #D59DFF);
+                border: none;
+        }
+
+        .benefit-btn1 {
+                padding: 33px 41px;
+                border-radius: 5px;
+                border: none;
+                max-width: 420px;
+        }
+
+        .benefit-btn2 {
+                border-radius: 5px;
+                border: none;
+                max-width: 420px;
+                padding: 10px 57px;
+        }
+
+        .py-250 {
+                padding: 240px 90px;
+        }
 }
 
 
@@ -571,5 +577,5 @@
                 background: var(--Purple, #8661C5);
                 box-shadow: 2.51517px 2.51517px 11.31828px 0px rgba(0, 0, 0, 0.70);
                 padding: 70px 9px;
-        }  
+        }
 }
